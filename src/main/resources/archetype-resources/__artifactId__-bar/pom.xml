@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>${groupId}</groupId>
+	<artifactId>${artifactId}-bar</artifactId>
+
+	<packaging>wmb-bar</packaging>
+
+	<parent>
+		<groupId>${groupId}</groupId>
+		<artifactId>${artifactId}-parent</artifactId>
+		<version>${version}</version>
+		<relativePath>../${artifactId}-parent</relativePath>
+	</parent>
+
+	<!-- add here the maven wmb plugin properties -->
+	<properties>
+		<wmb.excludeArtifactsPattern>**/SUB_*.msgflow</wmb.excludeArtifactsPattern>
+	</properties>
+
+	<!-- add here the project dependencies -->
+	<dependencies>
+		<dependency>
+			<groupId>${groupId}</groupId>
+			<artifactId>${artifactId}-flow</artifactId>
+			<type>zip</type>
+			<version>${project.version}</version>
+		</dependency>
+	</dependencies>
+
+</project>
