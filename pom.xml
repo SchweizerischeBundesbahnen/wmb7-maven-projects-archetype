@@ -18,8 +18,8 @@
 	</parent>
 
 	<scm>
-		<connection>scm:git:https://github.com/SchweizerischeBundesbahnen/wmb7-maven-projects/trunk</connection>
-		<developerConnection>scm:git:https://github.com/SchweizerischeBundesbahnen/wmb7-maven-projects/trunk</developerConnection>
+		<connection>scm:git:https://github.com/SchweizerischeBundesbahnen/wmb7-maven-projects-archetype.git</connection>
+		<developerConnection>scm:git:https://github.com/SchweizerischeBundesbahnen/wmb7-maven-projects-archetype.git</developerConnection>
 	</scm>
 
 	<properties>
