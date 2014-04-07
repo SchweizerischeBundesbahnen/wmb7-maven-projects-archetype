@@ -5,7 +5,7 @@
 
 	<groupId>ch.sbb.maven.archetypes</groupId>
 	<artifactId>wmb7-maven-projects</artifactId>
-	<version>1.1-SNAPSHOT</version>
+	<version>1.0</version>
 	<packaging>maven-archetype</packaging>
 
 	<name>WMB7 Maven Projects</name>
